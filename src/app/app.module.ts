@@ -7,6 +7,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+
 // import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +16,7 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { RegionComponent } from './region/region.component';
 import { DetailregionComponent } from './detailregion/detailregion.component';
+import { CarouselaccueilComponent } from './carouselaccueil/carouselaccueil.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,10 @@ import { DetailregionComponent } from './detailregion/detailregion.component';
     ConnexionComponent,
     InscriptionComponent,
     RegionComponent,
-    DetailregionComponent
+    DetailregionComponent,
+    // CarouselaccueilComponent
+
+    
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,10 @@ import { DetailregionComponent } from './detailregion/detailregion.component';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
